@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajouter"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes argents ??"
+        android:textColor="@color/bleu"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="produit acheté"
+        android:id="@+id/produit"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prix du produit"
+        android:id="@+id/prix"
+        android:textSize="50sp"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/confirmer"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="confirmer"
+        android:background="@color/vert"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    tools:context=".Modele">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:weightSum="100"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/objet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="produit"
+            android:textColor="@color/bleu"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/datex"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/bleu"
+            android:text="date"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/prixx"
+        android:layout_width="0dp"
+        android:textSize="50sp"
+        android:text="prix"
+        android:textColor="@color/bleu"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
